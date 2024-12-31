@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bme-units"
+version = "0.1.0"
+description = ""
+authors = ["Thomas Grinstead <tomahawkga@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.1"
+
+[tool.poetry.scripts]
+bme_units = 'bme_units.app:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
